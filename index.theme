@@ -26,11 +26,11 @@ DialogSizes=16,22,32,48,64,128,256
 Directories=16x16,22x22
 
 [16x16]
-Context=icons
+Context=Actions
 Size=16
 Type=Scalable
 
 [22x22]
-Context=icons
+Context=Actions
 Size=22
 Type=Scalable
