@@ -1,5 +1,5 @@
 [Icon Theme]
-Name=Active-Directory
+Name=Active-Directory-line
 Comment=icons for apps ADMC and GPUI
 
 DisplayDepth=32
@@ -23,14 +23,14 @@ PanelSizes=16,22,32,48,64,128,256
 DialogDefault=32
 DialogSizes=16,22,32,48,64,128,256
 
-Directories=16x16,22x22
+Directories=32x32,22x22
 
-[16x16]
-Context=icons
-Size=16
+[32x32]
+Context=Actions
+Size=32
 Type=Scalable
 
 [22x22]
-Context=icons
+Context=Actions
 Size=22
 Type=Scalable
