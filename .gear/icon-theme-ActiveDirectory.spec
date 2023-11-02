@@ -18,8 +18,8 @@ Icons theme for ADMC and GPUI.
 %build
 
 %install
-mkdir -p %buildroot%_iconsdir/Active-Directory/16x16
-cp -R 16x16 %buildroot%_iconsdir/Active-Directory
+mkdir -p %buildroot%_iconsdir/Active-Directory/32x32
+cp -R 32x32 %buildroot%_iconsdir/Active-Directory
 mkdir -p %buildroot%_iconsdir/Active-Directory/22x22
 cp -R 22x22 %buildroot%_iconsdir/Active-Directory
 install index.theme %buildroot%_iconsdir/Active-Directory
