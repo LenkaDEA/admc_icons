@@ -27,14 +27,14 @@ cp -R Active-Directory-duotone %buildroot%_iconsdir
 mkdir -p %buildroot%_iconsdir/Active-Directory-color
 cp -R Active-Directory-color %buildroot%_iconsdir
 
-#install index.theme %buildroot%_iconsdir/Active-Directory
-#export ICON_AD='Active-Directory'
-
+mkdir -p %buildroot%_sysconfdir/icon-theme-ActiveDirectory
+install icon-theme-ActiveDirectory.conf %buildroot%_sysconfdir/icon-theme-ActiveDirectory
 
 %files
 %_iconsdir/Active-Directory-line
 %_iconsdir/Active-Directory-duotone
 %_iconsdir/Active-Directory-color
+%_sysconfdir/icon-theme-ActiveDirectory
 
 %changelog
 * Mon Oct 02 2023 Elena Dyatlenko <lenka@altlinux> 1.0-alt1
